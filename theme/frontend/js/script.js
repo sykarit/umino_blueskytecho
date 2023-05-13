@@ -27,7 +27,7 @@ GUI._initMenuMobile = function(){
   const ul2 = menu.find('li>ul');
   menu.find("ul li").each(function() {
       if($(this).find("ul>li").length > 0){
-          $(this).append('<i class="show fas fa-chevron-down item-center"></i>');
+          $(this).append('<i class="show fa fa-chevron-down item-center"></i>');
       }
   });
   let i2 = menu.find('.show');
@@ -57,7 +57,7 @@ GUI._initOwl = function(){
     items : 1, 
     itemsDesktop : false,
     nav: true,
-    navText: ['<i class="fas fa-chevron-left item-center"></i>','<i class="fas fa-chevron-right item-center"></i>'],
+    navText: ['<i class="fa fa-chevron-left item-center"></i>','<i class="fa fa-chevron-right item-center"></i>'],
     itemsDesktopSmall : false,
     itemsTablet: false,
     itemsMobile : false
